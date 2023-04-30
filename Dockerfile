@@ -19,6 +19,6 @@ COPY .  .
 RUN npm run build
 
 # Expose the APi Port
-EXPOSE 9090
+EXPOSE 3000
 
 CMD ["node", "build/server.js"]
